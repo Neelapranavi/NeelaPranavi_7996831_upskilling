@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Local Community Event Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        #welcomeBanner {
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .highlight {
+            background-color: rgb(255, 0, 21);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .gallery-img {
+            width: 200px;
+            height: 120px;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+
+        form {
+            border-radius: 10px;
+        }
+
+        footer {
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- External JS -->
+    <script src="main.js"></script>
+
+    <div class="container mt-4">
+
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand fw-bold" href="#">
+                    Community Portal
+                </a>
+
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navMenu">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">
+                                Events
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="help.html"
+                                target="_blank">
+                                Help
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Welcome Section -->
+
+        <section id="home"
+            class="card shadow-lg p-4 mt-4">
+
+            <div id="welcomeBanner"
+                class="p-4 text-center shadow">
+
+                <h1 class="display-5">
+                    Welcome to Local Community Portal!
+                </h1>
+
+                <span style="color:red; font-weight:bold;">
+                    Special Offer: 20% off on event registrations!
+                </span>
+
+            </div>
+
+            <p class="highlight mt-3 text-center">
+                Register today for upcoming community events.
+            </p>
+
+        </section>
+
+        <!-- Event Gallery -->
+
+        <section id="events"
+            class="card shadow-lg p-4 mt-4">
+
+            <h2 class="text-center mb-4">
+                Community Event Gallery
+            </h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-striped text-center">
+
+                    <tr>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400"
+                                alt="Music Event"
+                                title="Music Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Music Festival
+                            </p>
+                        </td>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400"
+                                alt="Food Event"
+                                title="Food Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Food Carnival
+                            </p>
+                        </td>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400"
+                                alt="Sports Event"
+                                title="Sports Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Sports Meet
+                            </p>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400"
+                                alt="Art Event"
+                                title="Art Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Art Exhibition
+                            </p>
+                        </td>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400"
+                                alt="Dance Event"
+                                title="Dance Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Dance Show
+                            </p>
+                        </td>
+
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400"
+                                alt="Tech Event"
+                                title="Tech Event"
+                                class="gallery-img">
+
+                            <p class="mt-2">
+                                Tech Seminar
+                            </p>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- Registration Form -->
+
+        <section class="card shadow-lg p-4 mt-4">
+
+            <h2 class="text-center mb-4">
+                Event Registration Form
+            </h2>
+
+            <form id="registrationForm" 
+            class="bg-light p-4 rounded"
+                onsubmit="showMessage(); return false;">
+
+                <input type="text"
+                    class="form-control mb-3"
+                    placeholder="Enter Name"
+                    required
+                    autofocus>
+
+                <input type="email"
+                    class="form-control mb-3"
+                    placeholder="Enter Email"
+                    required>
+
+                <input type="date"
+                    class="form-control mb-3"
+                    required>
+
+                <select id="eventType"
+                    class="form-select mb-3"
+                    onchange="showFee()">
+
+                    <option value="">
+                        Select Event
+                    </option>
+
+                    <option value="100">
+                        Music - ₹100
+                    </option>
+
+                    <option value="200">
+                        Sports - ₹200
+                    </option>
+
+                    <option value="300">
+                        Tech - ₹300
+                    </option>
+
+                </select>
+
+                <p id="fee"></p>
+
+                <input type="text"
+                    class="form-control mb-3"
+                    placeholder="Phone Number"
+                    onblur="validatePhone(this.value)">
+
+                <textarea id="feedback"
+                    class="form-control mb-3"
+                    placeholder="Enter Feedback"
+                    onkeyup="countChars()"></textarea>
+
+                <p>
+                    Characters:
+                    <span id="count">0</span>
+                </p>
+
+                <button class="btn btn-primary w-100"
+                    type="submit"
+                    onclick="showConfirmation()">
+
+                    Submit
+
+                </button>
+
+                <output id="outputMsg"></output>
+
+            </form>
+
+        </section>
+
+        <!-- Video Section -->
+
+        <section class="card shadow-lg p-4 mt-4">
+
+            <h2 class="text-center mb-4">
+                Promo Video
+            </h2>
+
+            <div class="text-center">
+
+                <video class="img-fluid rounded shadow"
+                    width="500"
+                    controls
+                    oncanplay="videoReady()">
+
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4"
+                        type="video/mp4">
+
+                </video>
+
+                <p id="videoMsg"
+                    class="mt-3 fw-bold">
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Seat Registration -->
+
+        <section class="card shadow-lg p-4 mt-4 text-center">
+
+            <h2>
+                Available Seats:
+                <span id="seatCount">50</span>
+            </h2>
+
+            <button class="btn btn-success"
+                onclick="registerUser()">
+
+                Register
+
+            </button>
+
+            <br><br>
+
+            <input type="text"
+                id="searchBox"
+                class="form-control"
+                placeholder="Search Events">
+
+            <div id="loading"
+                style="display:none;"
+                class="mt-3">
+
+                Loading...
+
+            </div>
+
+        </section>
+
+        <!-- Geolocation -->
+
+        <section class="card shadow-lg p-4 mt-4 text-center">
+
+            <button class="btn btn-warning"
+                onclick="findLocation()">
+
+                <b>Find Nearby Events</b>
+
+            </button>
+
+            <p id="location"
+                class="mt-3 fw-bold">
+            </p>
+
+        </section>
+
+        <!-- Dynamic Events -->
+
+        <div id="eventContainer"
+            class="mt-4">
+        </div>
+
+        <!-- Footer -->
+
+        <footer id="contact"
+            class="bg-dark text-white text-center p-4 mt-5">
+
+            <h3>
+                Contact Us
+            </h3>
+
+            <p>
+                Email: support@communityportal.com
+            </p>
+
+        </footer>
+
+        <!-- Thank You -->
+
+        <div class="text-center mt-4 mb-5">
+
+            <h2>
+                Thank you for visiting!
+            </h2>
+
+            <button class="btn btn-danger"
+                onclick="clearPreferences()">
+
+                Clear Preferences
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function showFee() {
+
+            let fee =
+                document.getElementById("eventType").value;
+
+            document.getElementById("fee").innerHTML =
+                "Event Fee: ₹" + fee;
+
+            localStorage.setItem(
+                "preferredEvent",
+                fee
+            );
+        }
+
+        window.onload = function () {
+
+            let saved =
+                localStorage.getItem(
+                    "preferredEvent"
+                );
+
+            if (saved) {
+
+                document.getElementById(
+                    "eventType"
+                ).value = saved;
+            }
+        }
+
+        function validatePhone(phone) {
+
+            if (phone.length < 10) {
+
+                alert("Invalid Phone Number");
+            }
+        }
+
+        function showConfirmation() {
+
+            alert("Button Clicked");
+        }
+
+        function showMessage() {
+
+            document.getElementById(
+                "outputMsg"
+            ).innerHTML =
+                "Registration Successful!";
+        }
+
+        function countChars() {
+
+            let text =
+                document.getElementById(
+                    "feedback"
+                ).value;
+
+            document.getElementById(
+                "count"
+            ).innerHTML =
+                text.length;
+        }
+
+        function videoReady() {
+
+            document.getElementById(
+                "videoMsg"
+            ).innerHTML =
+                "Video ready to play";
+        }
+
+        window.onbeforeunload =
+            function () {
+
+                return "Form not submitted. Are you sure?";
+            }
+
+        function clearPreferences() {
+
+            localStorage.clear();
+
+            sessionStorage.clear();
+
+            alert("Preferences Cleared");
+        }
+
+        function findLocation() {
+
+            navigator.geolocation.getCurrentPosition(
+                success,
+                error,
+                {
+                    enableHighAccuracy: true,
+                    timeout: 5000
+                }
+            );
+
+            function success(position) {
+
+                document.getElementById(
+                    "location"
+                ).innerHTML =
+
+                    "Latitude: "
+                    + position.coords.latitude
+                    + "<br>Longitude: "
+                    + position.coords.longitude;
+            }
+
+            function error() {
+
+                alert(
+                    "Location access denied or timeout"
+                );
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

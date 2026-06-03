@@ -1,0 +1,122 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styling */
+body{
+    background:#f0f0f0;
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+/* Main Header */
+#mainHeader{
+    background:linear-gradient(to right, blue, purple);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* Navigation */
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    background:black;
+}
+
+nav ul li{
+    padding:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Link Hover */
+nav ul li a:hover{
+    color:yellow;
+}
+
+/* Event Card */
+.eventCard{
+    border:2px solid gray;
+    padding:20px;
+    margin:20px;
+    background:white;
+    border-radius:10px;
+}
+
+/* Heading Style */
+h2{
+    color:darkblue;
+    margin-bottom:10px;
+}
+
+/* Group Selector */
+h3,p{
+    font-family:Verdana;
+}
+
+/* Table Styling */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid rgb(197, 60, 60);
+    padding:10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f8f7f7;
+}
+
+/* Images */
+.gallery-img{
+    width:250px;
+    height:150px;
+}
+
+/* Form Styling */
+form{
+    background:rgb(122, 135, 216);
+    padding:20px;
+    margin:20px;
+}
+
+input,textarea,select{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+/* Multi Column Text */
+.news{
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid rgb(181, 120, 120);
+}
+
+/* Responsive Design */
+@media screen and (max-width:768px){
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    .gallery-img{
+        width:100%;
+        height:auto;
+    }
+
+    body{
+        font-size:14px;
+    }
+}
