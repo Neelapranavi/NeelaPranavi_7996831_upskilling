@@ -6,8 +6,6 @@ public class PalindromeChecker {
 
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
-
-        // Remove non-alphanumeric characters and convert to lowercase
         String cleaned = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
         String reversed = new StringBuilder(cleaned).reverse().toString();
