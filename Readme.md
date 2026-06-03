@@ -146,8 +146,8 @@ This upskilling journey enhanced my understanding of Full Stack Development fund
 
 ## 👩‍💻 Author
 
-**Neela Pranavi**
-**superset_id : 7996831**
+-**Neela Pranavi**
+-**superset_id : 7996831**
 
 B.Tech – Computer Science Engineering (AI & ML)
 
