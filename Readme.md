@@ -1,47 +1,157 @@
-# Cognizant Nurture 5.0 – Upskilling Program
+# 🚀 Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (Java FSE)
 
-## Overview
+## 📌 About the Program
 
-This repository contains the assignments, projects, and practice exercises completed as part of the Cognizant Nurture 5.0 Upskilling Program.
+This repository contains all exercises, assignments, and hands-on implementations completed as part of the **Cognizant Digital Nurture 5.0 (DN 5.0) Java Full Stack Engineer Upskilling Program**.
 
-## Repository Structure
+The program is designed to strengthen technical skills across Front-End Development, Database Management, and Core Java Programming through practical learning and real-world problem-solving.
+
+---
+
+## 🎯 Learning Objectives
+
+Throughout this program, I focused on:
+
+- Building responsive web pages using HTML5 and CSS3
+- Creating interactive applications with JavaScript
+- Developing modern user interfaces with Bootstrap 5
+- Understanding JavaScript build tools such as Babel and Webpack
+- Writing efficient SQL queries using MySQL
+- Mastering Core Java and Object-Oriented Programming concepts
+- Improving analytical thinking and problem-solving skills
+- Applying industry-standard coding practices
+
+---
+
+## 🛠️ Technologies & Tools
+
+| Category | Technologies |
+|----------|-------------|
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap 5 |
+| Build Tools | Babel, Webpack |
+| Database | MySQL |
+| Programming Language | Java |
+| Version Control | Git, GitHub |
+| IDEs | VS Code, IntelliJ IDEA, Eclipse |
+
+---
+
+## 📂 Repository Structure
 
 ```text
-.
-├── module_1
-├── module_2
-├── module_3
+Digital-Nurture-JavaFSE
+│
+├── Module 1
+│   ├── HTML5
+│   ├── CSS3
+│   ├── JavaScript
+│   ├── Bootstrap 5
+│   └── Babel & Webpack
+│
+├── Module 2
+│   └── ANSI SQL Using MySQL
+│
+├── Module 3
+│   └── Core Java
+│
 └── README.md
 ```
 
-### Module 1
+---
 
-Contains foundational exercises, coding tasks, and learning activities completed during Module 1.
+## ✅ Topics Covered
 
-### Module 2
+### 🌐 Front-End Development
+- HTML5 Fundamentals
+- Forms, Tables, Lists, Semantic Tags
+- CSS3 Styling and Responsive Design
+- JavaScript Basics and DOM Manipulation
+- Bootstrap Components and Grid System
 
-Contains SQL, database management, and related assignments completed during Module 2.
+### 🗄️ Database Management
+- SQL Fundamentals
+- Data Retrieval using SELECT
+- Filtering and Sorting
+- Aggregate Functions
+- Joins and Subqueries
+- Data Manipulation (INSERT, UPDATE, DELETE)
+- Constraints and Indexes
 
-### Module 3
+### ☕ Core Java
+- Java Fundamentals
+- OOP Concepts
+- Exception Handling
+- Collections Framework
+- Multithreading
+- File Handling
+- Functional Programming
+- JDBC
+- Java 17 & Java 21 Features
 
-Contains advanced programming, project work, and additional upskilling activities completed during Module 3.
+---
 
-## Technologies Used
+## 📈 Key Skills Acquired
 
-* Java
-* SQL / MySQL
-* Git & GitHub
-* VS Code
-* MySQL Workbench
+- Object-Oriented Programming (OOP)
+- Problem Solving
+- Database Query Optimization
+- Front-End Development
+- Java Application Development
+- Debugging and Testing
+- Git & GitHub Workflow
 
-## Objectives
+---
 
-* Strengthen programming fundamentals
-* Improve database design and query writing skills
-* Learn version control using Git and GitHub
-* Develop problem-solving and coding abilities
-* Complete Cognizant Nurture learning modules and assignments
+## 💡 Highlights
 
+✔ Completed all assigned exercises and coding tasks
 
+✔ Practiced real-world development concepts
 
-Cognizant Nurture 5.0 – Upskilling Program
+✔ Strengthened Java programming fundamentals
+
+✔ Gained hands-on experience with SQL and Web Technologies
+
+✔ Improved coding, debugging, and version control skills
+
+---
+
+## ▶️ Running the Projects
+
+### Java Programs
+
+```bash
+javac FileName.java
+java FileName
+```
+
+### SQL Scripts
+
+Execute using:
+
+- MySQL Workbench
+- MySQL Command Line Client
+
+### Web Projects
+
+Open the `.html` files in any modern web browser.
+
+---
+
+## 📚 Learning Outcome
+
+This upskilling journey enhanced my understanding of Full Stack Development fundamentals and strengthened my ability to build, debug, and manage software applications using modern technologies.
+
+---
+
+## 👩‍💻 Author
+
+**Neela Pranavi**
+
+B.Tech – Computer Science Engineering (AI & ML)
+
+Cognizant Digital Nurture 5.0 – Java Full Stack Engineer
+
+---
+
+### ⭐ If you find this repository useful, feel free to explore the implementations and provide feedback.
